@@ -1,22 +1,22 @@
 # New Project Guidelines
 
-This is guidance for volunteers for how to create a new project for the piscine.
+This is guidance for volunteers for how to create a new project for Checkpoint.
 
-You do not need to read or understand this guidance in order to take the piscine as a trainee.
+You do not need to read or understand this guidance in order to take the Checkpoint as a trainee.
 
-You can also see [how we present these goals to our candidates in the Piscine prep](https://piscine.codeyourfuture.io/prep/#goals), as well as the [expectations we set for candidates](https://piscine.codeyourfuture.io/prep/#expectations).
+You can also see [how we present these goals to our candidates in the Checkpoint prep](https://curriculum.codeyourfuture.io/checkpoint/prep/#goals), as well as the [expectations we set for candidates](https://curriculum.codeyourfuture.io/checkpoint/prep/#expectations).
 
 ## Goals
 
-The goals of the piscine are:
+The goals of Checkpoint are:
 1. Filter out graduates from ITP who are unlikely to get and thrive in a job in software.
    - This may be for reasons of knowledge, understanding, commitment, or team-work.
    - This may be because _the trainee decides_ that this isn't for them, or because _CYF assesses_ that this isn't for them.
-   - We _want_ anyone who is ready to do the SDC and will realistically get a job after it to thrive in the piscine. But we _also_ want to sign-post those who _aren't_ realistically ready to get a job.
+   - We _want_ anyone who is ready to do the SDC and will realistically get a job after it to thrive in the Checkpoint. But we _also_ want to sign-post those who _aren't_ realistically ready to get a job.
       - As much as possible, we would like to be able to give suggestions to those who aren't ready about what action if any would help them to be ready (e.g. practice functions, practice breaking down problems, practice English language, etc).
       - If a trainee is unlikely to get a job in a practical time scale, it's better for them to realise this early and decide to drop out, rather than waste more of their (and volunteers') time.
 
-The goals of the projects in the piscine are:
+The goals of the projects in the Checkpoint are:
 1. To **test understanding** of the concepts they were meant to learn in ITD and ITP.
    They should not require knowledge of significant topics that were not covered in ITD or ITP.
 1. To **stretch** the trainees and require them to deliver **high quality results in a limited time**.
@@ -84,7 +84,7 @@ We assess projects in two ways:
    1. How does (feature x) work? (e.g. "How did the number 7 appear on screen here?" or "What caused this pop-up to appear when my mouse moved?")
    2. Explain (play computer for) this block of code.
 
-The interview happens at the end of the Piscine, and the assessors may pick any of the projects to assess this way.
+The interview happens at the end of Checkpoint, and the assessors may pick any of the projects to assess this way.
 
 ### Be explicit about what should be submitted
 

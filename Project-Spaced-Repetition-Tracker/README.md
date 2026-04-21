@@ -151,4 +151,4 @@ Go back and check User 1, User 2, and User 3 still show the correct outputs.
 
 ## Working in a group
 
-If you working in a group, we recommend that **all** team members read the [Working in a group guidelines](https://github.com/CodeYourFuture/The-Piscine/blob/main/working-in-a-group.md). Confirm all group members have read and understand these before starting to write code.
+If you working in a group, we recommend that **all** team members read the [Working in a group guidelines](https://github.com/CodeYourFuture/Checkpoint/blob/main/working-in-a-group.md). Confirm all group members have read and understand these before starting to write code.

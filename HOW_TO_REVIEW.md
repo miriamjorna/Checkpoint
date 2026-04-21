@@ -2,7 +2,7 @@
 
 Mentors and trainees all review code, and collaborate on improving code quality. We are all helping each other to talk, write, and think about code more clearly.
 
-In the Piscine, we are reviewing code before it is accepted into production. We are looking for bugs, security vulnerabilities, and ways to improve the code.
+In the Checkpoint, we are reviewing code before it is accepted into production. We are looking for bugs, security vulnerabilities, and ways to improve the code.
 
 ## Key points:
 

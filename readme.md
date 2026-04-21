@@ -1,6 +1,6 @@
-# The Piscine
+# Checkpoint
 
-Welcome to the Piscine! This repo contains the projects required to complete the Piscine module.
+Welcome to Checkpoint! This repo contains the projects required to complete the Checkpoint module.
 
 In this repo there are some individual and some team projects as sub-folders. Your class leaders will tell you which projects you will be doing and how they will be structured.
 
