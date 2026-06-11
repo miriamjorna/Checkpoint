@@ -15,29 +15,14 @@ export function getMostListenedSong(
 
 export function getMostListenedArtist(
   listenEvents,
-  getArtistFn,
+  getSongFn,
 ) {
   const counts = {};
   for (const event of listenEvents) {
-    counts[event.artist_id] =
-      (counts[event.artist_id] || 0) + 1;
+    const song = getSongFn(event.song_id);
+    counts[song.artist] = (counts[song.artist] || 0) + 1;
   }
-  const topId = Object.keys(counts).sort(
+  return Object.keys(counts).sort(
     (a, b) => counts[b] - counts[a],
   )[0];
-  return getArtistFn(topId);
-}
-
-export function getMostListenedSong(
-  listenEvents,
-  getSongFn,
-) {
-  const sum = {};
-  for (const event of listenEvents) {
-    sum[event.song_id] = (sum[event.song_id] || 0) + 1;
-  }
-  const topId = Object.keys(sum).sort(
-    (a, b) => sum[b] - sum[a],
-  )[0];
-  return getSongFn(topId);
 }
