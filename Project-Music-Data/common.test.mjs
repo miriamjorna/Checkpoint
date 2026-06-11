@@ -1,7 +1,7 @@
 import assert from "node:assert";
 import test from "node:test";
 import { countUsers } from "./common.mjs";
-import { getSong, getListenEvents } from "./data.mjs";
+import { getListenEvents, getSong } from "./data.mjs";
 import {
   getMostListenedSong,
   getLongestStreak,
@@ -19,5 +19,12 @@ test("Most listened song for user 1 is When Your Mind's Made Up", () => {
 
 test("Longest streak for user 2 is 44", () => {
   const events = getListenEvents("2");
-  assert.equal(getLongestStreak(events, getSong).count, 44);
+  const streak = getLongestStreak(events);
+  console.log(
+    "streak song:",
+    streak.songId,
+    "count:",
+    streak.count,
+  );
+  assert.equal(streak.count, 44);
 });
