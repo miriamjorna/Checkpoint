@@ -1,6 +1,10 @@
-import { getUserIDs, getListenEvents } from "./data.mjs";
+import {
+  getUserIDs,
+  getListenEvents,
+  getSong,
+  getArtist,
+} from "./data.mjs";
 import { getMostListenedSong } from "./questions.mjs";
-import { getSong } from "./data.mjs";
 
 window.onload = function () {
   const select = document.getElementById("user-select");
@@ -18,7 +22,7 @@ window.onload = function () {
 
     if (events.length === 0) {
       container.innerHTML =
-        "<p>This user has no listening history.</p>";
+        "<p>This user didn't listen to any songs.</p>";
       return;
     }
 
