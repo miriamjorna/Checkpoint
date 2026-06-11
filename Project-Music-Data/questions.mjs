@@ -74,29 +74,23 @@ export function getFridayNightEvents(listenEvents) {
 export function getLongestStreak(listenEvents) {
   if (!listenEvents.length) return null;
 
-  // sort by timestamp to be safe
-  const sorted = [...listenEvents].sort(
-    (a, b) => new Date(a.timestamp) - new Date(b.timestamp),
-  );
-
   let bestSong = null,
     bestCount = 1;
-  let currentSong = sorted[0].song_id,
+  let currentSong = listenEvents[0].song_id,
     currentCount = 1;
 
-  for (let i = 1; i < sorted.length; i++) {
-    if (sorted[i].song_id === currentSong) {
+  for (let i = 1; i < listenEvents.length; i++) {
+    if (listenEvents[i].song_id === currentSong) {
       currentCount++;
     } else {
       if (currentCount > bestCount) {
         bestCount = currentCount;
         bestSong = currentSong;
       }
-      currentSong = sorted[i].song_id;
+      currentSong = listenEvents[i].song_id;
       currentCount = 1;
     }
   }
-  // check final streak
   if (currentCount > bestCount) {
     bestCount = currentCount;
     bestSong = currentSong;
